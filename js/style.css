@@ -1,0 +1,29 @@
+#jeu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.case {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.case:hover {
+    background-color: #ccc;
+}
+
+.case.joueur1 {
+    background-color: red;
+}
+
+.case.joueur2 {
+    background-color: blue;
+}
+
+#message {
+    font-size: 20px;
+    text-align: center;
+}
